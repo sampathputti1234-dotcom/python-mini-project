@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
-# 1. Load and clean churnguard_data.csv (Task 2 cleaning steps)
+
 df = pd.read_csv('C:\\Users\\Putti Sampath\\Sampath\\AI and ML\\ml\\Python Script mini project 2\\churnguard_data.csv')
 
 df = df.drop(columns=['customerID'])
